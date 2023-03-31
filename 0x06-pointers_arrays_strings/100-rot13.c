@@ -1,5 +1,6 @@
 #include "main.h"
-
+#include <stdlib.h>
+#include <string.h>
 /**
  * *rot13 -> Encodes a string using rot13
  * @str: input string
@@ -10,7 +11,6 @@ char *rot13(char *str)
 {
 	char *coded = (char *) malloc(strlen(str) + 1);
 	int i;
-	int j;
 
 	for (i = 0; str[i] != '\0'; i++)
 	{
