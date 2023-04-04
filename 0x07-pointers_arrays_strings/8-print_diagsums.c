@@ -16,7 +16,7 @@ void print_diagsums(int *a, int size)
 
 	for (y = 0; y < size; y++)
 	{
-		s1 = s2 + a[y * size + y];
+		s1 = s1 + a[y * size + y];
 	}
 	for (y = size - 1; y >= 0; y--)
 	{
