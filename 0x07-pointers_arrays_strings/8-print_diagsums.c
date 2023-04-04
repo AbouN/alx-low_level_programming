@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_diagsums -> prints the sum of the 2 diag of a 2x2matrix of integers
